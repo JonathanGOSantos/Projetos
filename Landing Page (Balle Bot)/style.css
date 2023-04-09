@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+.top img{
+    height: 72px;
+}
+.top nav{
+    display: flex;
+    gap: 32px;
+}
+.top nav a{
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
+    font-weight: 400px;
+    font-size: 18px;
+}
+
+.main{
+    margin-bottom: 48px;
+    border-top: 0.4px solid #FFF2E7;
+}
+.main #principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.main #principal div{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.main #principal div h1{
+    font-family: 'Righteous', cursive;
+    font-weight: 400px;
+    font-size: 64px;
+    color: #FFF2E7;
+}
+.main #principal div h2{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400px;
+    font-size: 18px;
+    color: #ECD6C4;
+}
+.main #principal div button{
+    background-color: #ECD6C4;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Sarala';
+    font-weight: 400;
+    font-size: 24px;
+    color: #2F2325;
+}
+.main #principal img{
+    height: 430px;
+}
+
+.main #secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+.main #secundario h3{
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 48px;
+    font-family: 'Sarala';
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFF2E7;
+    margin-bottom: 16px;
+}
+.main #secundario p{
+    font-family: 'Sarala';
+    font-weight: 300;
+    font-size: 18px;
+    color: #ECD6C4;
+}
+
+.footer {
+    padding: 32px;
+    border-top: 0.4px solid #FFF2E7;
+}
+.footer img{
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+}
