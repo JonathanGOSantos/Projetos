@@ -1,4 +1,3 @@
-<link rel="shortcut icon" type="image/x-icon" href="/Projetos/favicon.png">
 # Projetos
  Projetos de Sites
 
