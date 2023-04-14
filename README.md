@@ -1,5 +1,5 @@
 # Projetos
- Projetos de Sites
+ Projetos de Sites por Jonathan Santos
 
 <a href="https://jonathangosantos.github.io/Projetos/Android-site-CursoemVideo">Projeto do site android CursoemVideo</a> <br>
 <a href="https://jonathangosantos.github.io/Projetos/Projeto-cordel">Projeto Cordel Curso em video</a> <br>
