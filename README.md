@@ -1,5 +1,6 @@
 # Projetos
-    Projetos de Sites por Jonathan Santos
+    Projetos de Sites por Jonathan Santos.
+    Codigo fonte de todos os projetos na minha página do Github
 
 <a href="https://jonathangosantos.github.io/Projetos/site-android">Site android CursoemVideo</a> <br>
 <a href="https://jonathangosantos.github.io/Projetos/site-android-scss">Site android CursoemVideo feito com SCSS</a> <br>
