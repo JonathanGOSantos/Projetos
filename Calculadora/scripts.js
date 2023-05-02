@@ -85,7 +85,6 @@ class Calculator {
     // this.previousOperandText.innerText.slice(0, -1) + operation;
   }
 
-
   appendNumber(number) {
     if (this.currentOperand.includes(".") && number === ".") return;
     this.currentOperand = `${this.currentOperand}${number.toString()}`;
@@ -98,8 +97,12 @@ class Calculator {
   }
 
   updateDisplay() {
-    this.previousOperandText.innerText = `${this.previousOperand} ${this.operation || ""}`;
-    this.currentOperandText.innerText = this.formatDisplayNumber(this.currentOperand)
+    this.previousOperandText.innerText = `${this.previousOperand} ${
+      this.operation || ""
+    }`;
+    this.currentOperandText.innerText = this.formatDisplayNumber(
+      this.currentOperand
+    );
   }
 }
 

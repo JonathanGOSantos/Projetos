@@ -38,10 +38,10 @@ body {
   background-color: #41b88375;
 }
 
-.grid-container > button.span-two {
+.grid-container  > button.span-two {
   grid-column: span 2;
 }
-.grid-container > .output {
+.grid-container .output {
   grid-column: 1 / -1;
   background-color: #222;
   display: flex;
