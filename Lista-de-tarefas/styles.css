@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-color: darkgray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  border: 2px solid white;
+  padding: 30px 40px;
+  min-width: 500px;
+}
+
+.new-task-container {
+  background-color: white;
+  padding: 30px 20px;
+  border-radius: 5px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+  display: flex;
+}
+
+.new-task-container input {
+  flex: 3;
+  font-size: 1rem;
+  border: 2px solid darkgray;
+  border-radius: 5px 0px 0px 5px;
+  border-right: none;
+  padding: 12px;
+  font-weight: 500;
+}
+
+.new-task-container input:focus {
+  outline: none;
+  border: 2px solid black;
+}
+
+.new-task-button {
+  flex: 1;
+  border-radius: 0px 5px 5px 0px;
+  font-weight: 500;
+  height: 100%;
+  font-size: 1rem;
+  border: 2px solid darkgray;
+  background-color: darkgrey;
+  color: white;
+  padding: 12px;
+  cursor: pointer;
+}
+
+.new-task-button:hover {
+  background-color: black;
+  border: 2px solid black;
+}
+
+.tasks-container {
+  background-color: white;
+  padding: 30px 20px;
+  margin-top: 60px;
+  border-radius: 10px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+  width: 100%;
+}
+
+/* Utilities */
+
+.error {
+    border: 2px solid red !important;
+}
+
+.error::placeholder {
+    color: red;
+}
