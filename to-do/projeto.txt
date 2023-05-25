@@ -1,0 +1,30 @@
+O código em questão é responsável por criar uma lista de tarefas interativa. Aqui está uma explicação do que cada parte do código faz:
+
+1. Ele seleciona elementos HTML utilizando a função `querySelector`, atribuindo-os a variáveis para referência posterior:
+   - `todoForm`: representa o formulário usado para adicionar novas tarefas.
+   - `todoInput`: representa o campo de entrada de texto onde o usuário pode digitar uma nova tarefa.
+   - `todoList`: representa uma lista onde as tarefas serão exibidas.
+   - `editForm`: representa o formulário usado para editar uma tarefa existente.
+   - `editInput`: representa o campo de entrada de texto no formulário de edição.
+   - `cancelEditBtn`: representa o botão usado para cancelar a edição de uma tarefa.
+
+2. A variável `oldInputValue` é inicializada para armazenar o valor antigo do título da tarefa durante a edição.
+
+3. A função `saveTodo` é definida para criar um novo elemento de tarefa, com título, botões de conclusão, edição e exclusão. A tarefa é adicionada à lista de tarefas e o campo de entrada de texto é limpo.
+
+4. A função `toggleForms` é definida para alternar a exibição dos formulários de adição e edição de tarefas, bem como a lista de tarefas.
+
+5. A função `updateTodo` é definida para atualizar o título de uma tarefa existente quando for feita uma edição.
+
+6. O evento de envio (submit) do formulário `todoForm` é escutado. Quando ocorre o envio do formulário, o valor do campo de entrada é verificado e, se houver um valor, a função `saveTodo` é chamada para adicionar a tarefa à lista.
+
+7. O evento de clique (click) no documento (página) é escutado. Quando ocorre um clique, o código verifica o elemento alvo do clique e executa diferentes ações com base no elemento clicado:
+   - Se o botão de conclusão da tarefa for clicado, a classe "done" é alternada no elemento pai da tarefa para marcar ou desmarcar como concluída.
+   - Se o botão de edição da tarefa for clicado, os formulários são alternados, o valor atual do título da tarefa é preenchido no campo de edição e `oldInputValue` é atualizado com o valor atual do título da tarefa.
+   - Se o botão de exclusão da tarefa for clicado, a tarefa é removida do DOM.
+
+8. O evento de clique (click) no botão `cancelEditBtn` é escutado. Quando o botão é clicado, os formulários são alternados.
+
+9. O evento de envio (submit) do formulário `editForm` é escutado. Quando ocorre o envio do formulário, o valor do campo de edição é verificado e, se houver um valor, a função `updateTodo` é chamada para atualizar o título da tarefa. Em seguida, os formulários são alternados novamente.
+
+Essas são as principais funcionalidades do código fornecido. Ele permite a adição, edição e remoção de tarefas em uma lista interativa no navegador.
